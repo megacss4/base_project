@@ -1,0 +1,36 @@
+// style.scss
+
+// Vendor
+
+// Utils
+@import
+	'utils/variables',
+	'utils/functions',
+	'utils/mixins',
+	'utils/placeholders';
+
+// Base
+@import
+	'base/normalize',
+	'base/base',
+	'base/typography';
+
+// Layuot
+@import
+	'layout/layout',
+	'layout/header',
+	'layout/navigation',
+	'layout/footer';
+	
+// Components
+@import
+	'components/logo',
+	'components/text';
+
+// Themes
+
+// Adaptive
+@import
+	'adaptive/mobile',
+	'adaptive/tablet',
+	'adaptive/desktop';

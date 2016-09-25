@@ -1,0 +1,61 @@
+// _variables.scss
+
+//== BASE
+// --------------------------------------------------
+
+//== Colors
+
+$base:							#fff !default;
+$grayBase:						#000 !default;
+$grayDarker:					#111 !default;
+$grayDark:						#333 !default;
+$gray:							#555 !default;
+$grayLight:						#777 !default;
+$grayLighter:					#999 !default;
+
+$brandPrimary:					#000 !default;
+$brandSuccess:					#000 !default;
+$brandInfo:						#000 !default;
+$brandWarning:					#000 !default;
+$brandDanger:					#000 !default;
+
+
+//== Reset
+
+$bodyBg:						$base !default;
+$textColor:						$grayDark !default;
+$linkColor:						$brandPrimary !default;
+
+
+//== Typography
+
+$fontFamilySansSerif:			'Arial', sans-serif !default;
+
+$fontFamilyBase:				$fontFamilySansSerif !default;
+
+$fontSizeBase:					14px !default;
+$fontSizeLarge:					18px !default;
+$fontSizeSmall:					12px !default;
+
+$fontSizeH1:					20px !default;
+
+$lineHeightBase:				1.428571429 !default; // 20/14
+
+
+//== MODULE
+// --------------------------------------------------
+
+
+//== Components
+
+
+//== Media queries breakpoints
+
+$screenXsMin:					600px !default;
+$screenSmMin:					800px !default;
+$screenMdMin:					1024px !default;
+$screenLgMin:					1200px !default;
+
+$screenXsMax:					($screenSmMin - 1) !default;
+$screenSmMax:					($screenMdMin - 1) !default;
+$screenMdMax:					($screenLgMin - 1) !default;
